@@ -11,7 +11,9 @@ mod threading;
 mod scope_threads;
 mod mutexs;
 mod channels;
-mod myflatbuffers;
+mod imager;
+mod macros;
+mod testing;
 
 #[allow(dead_code)]
 fn main() {
@@ -30,7 +32,9 @@ fn main() {
     // threading::test_threading();
     // scope_threads::test_thread_variables();
     // mutexs::text_mutex();
-    channels::test_channels();
+    // channels::test_channels();
+    // imager::test_image();
+    // macros::test_macros();
 }
 
 
